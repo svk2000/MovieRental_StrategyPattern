@@ -1,7 +1,7 @@
-package edu.utd.movierental.strategy;
+package edu.utd.movierental.strategy.pricing;
 
 import edu.utd.movierental.models.Rental;
 
-public interface PricingStrategy {
+public interface RentalPricingStrategy {
     public double computeRentalPrice(Rental rental);
 }

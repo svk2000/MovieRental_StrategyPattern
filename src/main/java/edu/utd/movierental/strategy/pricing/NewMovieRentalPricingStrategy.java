@@ -1,8 +1,8 @@
-package edu.utd.movierental.strategy;
+package edu.utd.movierental.strategy.pricing;
 
 import edu.utd.movierental.models.Rental;
 
-public class NewMoviePricingStrategy implements PricingStrategy {
+public class NewMovieRentalPricingStrategy implements RentalPricingStrategy {
 
     public static final double PER_DIEM_PRICE = 3;
 

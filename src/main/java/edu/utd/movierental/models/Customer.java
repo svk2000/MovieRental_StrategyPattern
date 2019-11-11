@@ -8,14 +8,13 @@ import java.util.List;
 @XmlRootElement
 public class Customer {
     private String name;
+    private int age;
     private List<Rental> rentals = new ArrayList<Rental>();
     private int frequentRenterPoints = 0;
 
-    private Statement statement;
-
-    public Customer (String name) {
+    public Customer (String name, int age) {
         this.name = name;
-        this.statement = new Statement(this);
+        this.age = age;
     }
     
     public void addRental(Rental rental) {
@@ -28,17 +27,9 @@ public class Customer {
         return this.name;
     }
 
-    @XmlElement(name = "statement")
-    public Statement getStatement() {
-        return  this.statement;
-    }
+    public int getAge() { return  this.age; }
 
     public int getFrequentRenterPoints() {
-
-        this.frequentRenterPoints = 0;
-        for (Rental rental: this.getRentals()) {
-            this.frequentRenterPoints += rental.computeRentalPoints(this.frequentRenterPoints);
-        }
         return this.frequentRenterPoints;
     }
 
@@ -46,7 +37,6 @@ public class Customer {
         this.frequentRenterPoints = frequentRenterPoints;
     }
 
-    @XmlElement(name = "rentals")
     public List<Rental> getRentals() {
         return this.rentals;
     }
