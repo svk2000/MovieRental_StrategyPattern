@@ -19,25 +19,27 @@ public class FrequentRentalStrategyFactory {
 
         switch (rental.getRentalType()) {
             case REGULAR_MOVIE_RENTAL:
-                frequentRentalPointsStrategyList.add(new DefaultFrequentRentalPointsStrategy());
+                frequentRentalPointsStrategyList.add(DefaultFrequentRentalPointsStrategy.getInstance());
                 break;
             case CHILDREN_MOVIE_RENTAL:
-                frequentRentalPointsStrategyList.add(new DefaultFrequentRentalPointsStrategy());
+                frequentRentalPointsStrategyList.add(DefaultFrequentRentalPointsStrategy.getInstance());
                 break;
             case NEW_MOVIE_RENTAL:
-                frequentRentalPointsStrategyList.add(new NewReleaseFrequentRentalPointsStrategy());
+                frequentRentalPointsStrategyList.add(NewReleaseFrequentRentalPointsStrategy.getInstance());
                 break;
             default:
-                frequentRentalPointsStrategyList.add(new NewReleaseFrequentRentalPointsStrategy());
+                frequentRentalPointsStrategyList.add(DefaultFrequentRentalPointsStrategy.getInstance());
                 break;
         }
 
-        if (rentalTypes.size() > 2) {
-            frequentRentalPointsStrategyList.add(new MultipleCategoryRentalPointsStrategy());
+        if (rentalTypes.size() > 2 && customer.getRentals().indexOf(rental) == 0) {
+            frequentRentalPointsStrategyList.add(DoubleRegularRentalPointsStrategy.getInstance());
         }
 
-        if (customer.getAge() >= 18 && customer.getAge() <= 22 && rentalTypeCountMap.get(RentalType.NEW_MOVIE_RENTAL.name()) >= 1) {
-            frequentRentalPointsStrategyList.add(new AgeRentalPointsStrategy());
+        if (customer.getAge() >= 18 && customer.getAge() <= 22
+                && rentalTypeCountMap.get(RentalType.NEW_MOVIE_RENTAL.name()) >= 1
+                && customer.getRentals().indexOf(rental) == 0) {
+            frequentRentalPointsStrategyList.add(DoubleRegularRentalPointsStrategy.getInstance());
         }
 
         return frequentRentalPointsStrategyList;

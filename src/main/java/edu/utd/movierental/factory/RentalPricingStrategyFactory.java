@@ -15,16 +15,16 @@ public class RentalPricingStrategyFactory {
 
         switch (rental.getRentalType()) {
             case REGULAR_MOVIE_RENTAL:
-                rentalPricingStrategy = new RegularMovieRentalPricingStrategy();
+                rentalPricingStrategy = RegularMovieRentalPricingStrategy.getInstance();
                 break;
             case CHILDREN_MOVIE_RENTAL:
-                rentalPricingStrategy = new ChildrenMovieRentalPricingStrategy();
+                rentalPricingStrategy = ChildrenMovieRentalPricingStrategy.getInstance();
                 break;
             case NEW_MOVIE_RENTAL:
-                rentalPricingStrategy = new NewMovieRentalPricingStrategy();
+                rentalPricingStrategy = NewMovieRentalPricingStrategy.getInstance();
                 break;
             default:
-                rentalPricingStrategy = new RegularMovieRentalPricingStrategy();
+                rentalPricingStrategy = RegularMovieRentalPricingStrategy.getInstance();
                 break;
         }
         return rentalPricingStrategy;

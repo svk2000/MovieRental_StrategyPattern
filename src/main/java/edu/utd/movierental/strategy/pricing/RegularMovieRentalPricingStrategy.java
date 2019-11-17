@@ -8,6 +8,20 @@ public class RegularMovieRentalPricingStrategy implements RentalPricingStrategy 
     public static final int DAYS_LIMIT = 2;
     public  static  final double BASE_RENTAL_PRICE = 2;
 
+    private static RegularMovieRentalPricingStrategy regularMovieRentalPricingStrategy = null;
+
+    private RegularMovieRentalPricingStrategy()
+    { }
+
+    public static RegularMovieRentalPricingStrategy getInstance()
+    {
+        if (regularMovieRentalPricingStrategy == null)
+            regularMovieRentalPricingStrategy = new RegularMovieRentalPricingStrategy();
+
+        return regularMovieRentalPricingStrategy;
+    }
+
+    @Override
     public double computeRentalPrice(Rental rental) {
         double rentalPrice = 0;
         rentalPrice += this.BASE_RENTAL_PRICE;

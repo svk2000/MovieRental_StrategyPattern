@@ -4,7 +4,22 @@ import edu.utd.movierental.models.Customer;
 import edu.utd.movierental.models.Rental;
 
 public class NewReleaseFrequentRentalPointsStrategy implements  FrequentRentalPointsStrategy {
-    public int computeRentalPoints(int frequentRenterPoints, Rental rental, Customer customer){
+
+    private static NewReleaseFrequentRentalPointsStrategy newReleaseFrequentRentalPointsStrategy = null;
+
+    private NewReleaseFrequentRentalPointsStrategy()
+    { }
+
+    public static NewReleaseFrequentRentalPointsStrategy getInstance()
+    {
+        if (newReleaseFrequentRentalPointsStrategy == null)
+            newReleaseFrequentRentalPointsStrategy = new NewReleaseFrequentRentalPointsStrategy();
+
+        return newReleaseFrequentRentalPointsStrategy;
+    }
+
+    @Override
+    public int computeRentalPoints(int frequentRenterPoints, Rental rental){
 
         if(rental.getDaysRented() > 1) {
             ++frequentRenterPoints ;

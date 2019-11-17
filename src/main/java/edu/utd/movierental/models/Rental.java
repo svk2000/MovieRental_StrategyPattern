@@ -65,12 +65,13 @@ public class Rental {
     public int computeRentalPoints(Customer customer) {
         List<FrequentRentalPointsStrategy> rentalPointsStrategies = FrequentRentalStrategyFactory.getStrategy(this, customer);
         int regularRentalPoints = 0;
+        this.rentalPoints = 0;
         for (FrequentRentalPointsStrategy rentalPointsStrategy : rentalPointsStrategies) {
-            if (regularRentalPoints == 0) {
-                regularRentalPoints = rentalPointsStrategy.computeRentalPoints(this.rentalPoints, this, customer);
+            if (rentalPointsStrategies.indexOf(rentalPointsStrategy) == 0) {
+                regularRentalPoints = rentalPointsStrategy.computeRentalPoints(this.rentalPoints, this);
                 this.rentalPoints = regularRentalPoints;
             } else {
-                this.rentalPoints+= rentalPointsStrategy.computeRentalPoints(regularRentalPoints, this, customer);
+                this.rentalPoints+= rentalPointsStrategy.computeRentalPoints(regularRentalPoints, this);
             }
         }
         return this.rentalPoints;
