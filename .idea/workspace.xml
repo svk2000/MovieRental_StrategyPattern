@@ -2,45 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a81dd3f-72ba-4907-aceb-c6cd803dc987" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/factory/FrequentRentalStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/factory/RentalPricingStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/AgeRentalPointsStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/transaction/FrequentRenterPointsTransactionStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/MovieRentalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/MovieRentalApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/factory/MovieRentalFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Rental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Statement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/AgeRentalPointsStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/ChildrenMoviePricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/pricing/ChildrenMovieRentalPricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/DefaultFrequentRentalPointsStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/DefaultFrequentRentalPointsStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/FrequentRentalPointsStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/FrequentRentalPointsStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/MultipleCategoryRentalPointsStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/MultipleCategoryRentalPointsStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/NewMoviePricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/pricing/NewMovieRentalPricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/NewReleaseFrequentRentalPointsStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/NewReleaseFrequentRentalPointsStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/pricing/RentalPricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/RegularMoviePricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/pricing/RegularMovieRentalPricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/TransactionFrequentRenterPointsStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/transaction/TransactionPricingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/MovieRentalApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/MovieRentalApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/factory/MovieRentalFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/factory/MovieRentalFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/factory/FrequentRentalStrategyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/factory/FrequentRentalStrategyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/factory/RentalPricingStrategyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/factory/RentalPricingStrategyFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Rental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Statement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/ChildrenMoviePricingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/DefaultFrequentRentalPointsStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/FrequentRentalPointsStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/NewMoviePricingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/NewReleaseFrequentRentalPointsStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/PricingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/RegularMoviePricingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/utils/RentalType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/utils/RentalType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/models/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/pricing/ChildrenMovieRentalPricingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/pricing/ChildrenMovieRentalPricingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/pricing/NewMovieRentalPricingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/pricing/NewMovieRentalPricingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/pricing/RegularMovieRentalPricingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/pricing/RegularMovieRentalPricingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/AgeRentalPointsStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/DefaultFrequentRentalPointsStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/DefaultFrequentRentalPointsStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/FrequentRentalPointsStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/FrequentRentalPointsStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/MultipleCategoryRentalPointsStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/NewReleaseFrequentRentalPointsStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/rentalpoints/NewReleaseFrequentRentalPointsStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/transaction/FrequentRenterPointsTransactionStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/utd/movierental/strategy/transaction/FrequentRenterPointsTransactionStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +37,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1T45wbwUj74kfkUt2MBBkXEu12x" />
   <component name="PropertiesComponent">
@@ -113,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572706766684</updated>
       <workItem from="1572706767942" duration="8923000" />
-      <workItem from="1573312635969" duration="10742000" />
+      <workItem from="1573312635969" duration="11940000" />
+      <workItem from="1574009599141" duration="6608000" />
     </task>
     <servers />
   </component>
@@ -125,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -136,38 +125,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Rental.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/DefaultFrequentRentalPointsStrategy.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/DefaultFrequentRentalPointsStrategy.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="4" />
+          <line>68</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Rental.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="6" />
+          <line>73</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Rental.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="7" />
+          <line>70</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/models/Rental.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/factory/FrequentRentalStrategyFactory.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/main/java/edu/utd/movierental/strategy/rentalpoints/DoubleRegularRentalPointsStrategy.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
